@@ -15,4 +15,11 @@ Park.prototype.removeDinosaurByName = function (dino) {
   };
 };
 
+Park.prototype.findDinoWithMostVisits = function () {
+  let dino
+  this.dinosaurs.species.forEach( function(){
+    //if statment to work out which dino has the most visits.
+  });
+};
+
 module.exports = Park;
